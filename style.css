@@ -1,0 +1,582 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+:root {
+    --Btn-hover: aquamarine;
+    --Bgr-sub: #86b5e0;
+    --Bgr-contact:#dff9fb;
+    --Bgr-contact-sub: #74b9ff;
+}
+
+html {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    background-color: rgb(172, 236, 255);
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/* div {
+    border: 0.5px solid black;
+}    */
+
+/* Common */
+button {
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--Btn-hover);
+}
+
+a:link {
+    color: #0084ff;
+}
+
+a:visited {
+    color: #546c7a;
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(25, 75, 104);
+}
+
+h1{
+    margin-top: 90px;
+}
+
+h2{
+    margin-top: 200px;
+} 
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 15px;
+}
+
+img:hover {
+    opacity: 0.7;
+}
+
+.header {
+    position: fixed; 
+    top: 0px;
+    left: 0px;
+    background-color: var(--Bgr-sub);
+    width: 100%;
+    height: 70px;
+}
+
+.header-logo{
+    width: 70px;
+}
+
+.header-logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 0 0 0 0px;
+}
+
+.header-logo img:hover {
+    cursor: pointer;
+}
+
+.header-home {
+    width: 12%;
+    margin-left: 80px;
+}
+
+.header-home a {
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+    line-height: 70px;
+}
+
+.header-home a:hover{
+    color: rgba(0,255,213);
+}
+
+.header-search {
+    width: 40%;
+    margin-left: 400px;
+    line-height: 70px;
+}
+
+.header-search input, 
+.header-search button {
+    font-size: 16px;
+    height: 32px;
+    padding: 6px;
+}
+
+.header-search input {
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+}
+
+#sidebar {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 75px;
+    background-color: #fff; 
+    text-align: center;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+#sidebar .nav {
+    padding: 7px;
+    position: relative;
+}
+
+#sidebar .nav:hover {
+    background-color: var(--Bgr-sub);
+    border-radius: 18px;
+}
+
+#sidebar .nav p {
+    font-size: 14px;
+}
+
+#sidebar .nav .more, 
+.login {
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    background-color: #fff;
+    width: 75px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    list-style-type: none;
+}
+
+#sidebar .nav .more .add,
+.login1{
+    padding: 8px;
+    display: none;
+}
+
+#sidebar .nav:hover .add, 
+        .nav:hover .login1
+{
+    display: block;
+}
+
+.nav .more .add:hover,
+.login1:hover{
+    background-color: var(--Bgr-sub);
+    border-radius: 18px;
+}
+
+.nav ion-icon {
+    font-size: 40px;  
+    color: #000; 
+}
+
+/* Difficult */
+.diff {
+    font-size: 20px;
+    /* Căn giữa items */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diff img {
+    width: 60px;
+}
+
+/* Solve */
+.solve {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.solve th {
+    font-size: 18px;
+}
+
+.solve img {
+    width: 200px;
+    padding: 10px;
+}
+
+
+/* Pop-up clip */
+.docu {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 10px 10px;
+    width: 100%;
+    text-align: center;
+    /* Căn giữa = flexbox */
+    display: flex;
+    justify-content: center;   
+}
+
+.docu1 {
+    float: left;
+    padding: 6px;
+}
+
+
+.docu1 iframe {
+    width: 100%;
+    height: 250px;
+}
+
+.docu1 button {
+    font-size: 15px;
+    padding: 8px;
+}
+
+/* Documents */
+#documents {
+    margin-top: 120px;
+    width: 100%;
+    /* height: 280px;*/
+    padding-top: 100px;
+}
+
+#documents h2 {
+    margin-top: 0;
+}
+
+#documents table {
+    margin-top: 20px;
+}
+
+#documents table .table-doc-title {
+    background-color:#6699FF; 
+    height: 30px;
+}
+
+#documents table th {
+    width: 200px;
+}
+
+#documents a {
+    line-height: 30px;
+}
+
+#documents table td:hover {
+    opacity: 0.6;
+}
+
+/* Cmt */
+#cmt-menu {
+    padding-top: 100px;
+    margin-top: 170px;
+}
+
+.cmt {
+    height: 430px;
+    width: 60%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 5px 0px;
+}
+
+.cmt-p {
+    font-weight: bold;
+    font-size: 28px ;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(25, 75, 104);
+}
+
+#cmt-menu .cmt input {
+    width: 480px;
+    padding: 18px;
+    margin: 10px;
+}
+
+.cmt button {
+    background-color: var(--Bgr-sub);
+    height: 30px;
+    width: 50px;
+}
+
+.cmt button:hover {
+    background-color: var(--Btn-hover);
+}
+
+/* Rate */
+#rate {
+    margin-top: 150px;
+    padding: 0 70px;
+}
+#rate p {
+    font-size: 16px; 
+    margin-left: 20px;
+}
+#rate .rate-i {
+    padding: 20px;
+    display: inline-block;
+}
+
+.rate-i button {
+    font-size: 16px;
+    width: 60px;
+    height: 25px;
+}
+
+#rate input:hover{
+    cursor: pointer;
+}
+
+#rate p {
+    font-size: 18px;
+}
+
+/* Contact */
+
+#contact-info {
+    position: relative;
+    bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: var(--Bgr-contact);
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card ion-icon {
+    font-size: 26px;
+    background-color: var(--Bgr-contact-sub);
+    padding: 21px;
+    border-radius: 50%;
+    transition: 0.3s linear;
+    color: #fff;
+    
+}
+
+.card:hover ion-icon {
+    background-color: var(--Bgr-contact);
+    color: var(--Bgr-contact-sub);
+    transform: scale(1.6);
+
+}
+
+.card p {
+    margin-top: 20px;
+    letter-spacing: 2px;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.card:hover p {
+    opacity: 1;
+}
+
+.goTopbtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--Bgr-contact-sub);
+    border-radius: 50%;
+}
+
+.goTopbtn ion-icon {
+    font-size: 42px;
+    color: #fff;
+    padding: 2px;  
+}
+
+.goTopbtn:hover ion-icon {
+    background-color: #fff;
+    color: var(--Bgr-contact-sub);
+    border-radius: 50%;
+}
+
+
+
+
+/* Login */
+
+.login-menu{
+    background-color: #fff;
+    width: 60%;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.log h1 {
+    padding: 15px;
+}
+
+.log button,
+.reg button {
+    border-radius: 30px;
+    padding: 8px;
+}
+
+.log button,
+.login-menu .reg button:hover {
+    background-color: var(--Bgr-sub);
+}
+
+
+.login-menu .reg button, 
+.log button:hover {
+    background-color: var(--Btn-hover);
+}
+
+.log input, 
+button {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.log input {
+    padding: 16px;
+}
+
+.log a {
+    line-height: 50px;
+}
+
+.reg p {
+    padding: 10px;
+}
+
+.reg button {
+    margin-top: -5px;
+}
+
+.others button {
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Sign up */
+
+.sign-up {
+    margin-top: 75px;
+    background-color: #fff;
+    width: 60%;
+    height: 520px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.sign-up h1 {
+    margin-top: 10px;
+}
+
+.sign-up input {
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.sign-up form {
+    margin-top: -38px;
+    margin-left: -140px;
+}
+
+.sign-up select {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+}
+
+.sign-up .birth {
+    margin-top: -20px;
+}
+
+.sign-up .birth input {
+    width: 125px;
+}
+
+.sign-up button {
+    background-color: var(--Btn-hover);
+    border-radius: 30px;
+    padding: 8px;
+    margin-top: -5px;
+}
+
+.sign-up button:hover {
+    background-color: var(--Bgr-sub);
+}
+
+.other p {
+    line-height: 30px;
+}
+
+.sign-up .other button {
+    background-color: var(--Bgr-sub);
+}
+
+.sign-up .other button:hover {
+    background-color: var(--Btn-hover);
+}
+
+/* Web blog */
+#web-blog #sidebar .blog-p  {
+    background-color: var(--Bgr-sub);
+    border-radius: 18px;
+    padding: 8px;
+}
+
+#web-blog > p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+#web-blog input {
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

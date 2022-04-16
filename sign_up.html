@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up - ITERRY</title>
+    <link rel="icon" href="./assets/logo/logo_web2.jpg" type="img/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+
+    <div class="web-signup">
+
+        <center><div class="sign-up">
+            <h1>ĐĂNG KÝ</h1>
+            <input type="text" placeholder="Họ">
+            <input type="text" placeholder="Tên">
+            <br><input style="width: 60%" type="text" placeholder="Số điện thoại hoặc gmail">
+            <div class="birth">
+                <br><input type="number" placeholder="Ngày">
+                <input type="number" placeholder="Tháng">
+                <input type="number" placeholder="Năm sinh">
+            </div>
+                
+            <p style="margin-left: -320px; font-size: 16px; line-height: 48px; ">Giới tính</p>
+            <form>
+                <select id="Gender">
+                    <option value="g">Nam</option>
+                    <option value="b">Nữ</option>
+                    <option value="gb">Khác</option>
+                </select>
+            </form>
+    
+            <div class="new-acc">
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password" name="" id="">
+            </div>
+    
+            <br><button onclick="myFunction()">Đăng ký</button>
+            <hr>
+    
+            <div class="other">
+                <p>Bạn đã có tài khoản?</p>
+                <br><a href="login.html"><button>Đăng nhập</button></a>
+            </div>
+            
+        </div></center>
+
+        <!-- Thanh Header -->
+        <div class="header"> 
+            <div class="header header-logo">
+                <a href="index.html"><img src="./assets/logo/logo_web2.jpg" alt="logo web"></a></div>
+            </div>
+
+            <div class="header header-home">
+                <a href="index.html">ITERRY</a>  
+            </div>
+        </div>
+
+
+        <!-- Thanh sidebar -->
+        <div id="sidebar">
+            <div class="nav">
+                <a href="index.html"><ion-icon name="home-outline"></ion-icon></a>
+                <p>Home</p>
+            </div>
+
+            <div class="nav">
+                <a href="#"><ion-icon name="notifications-outline"></ion-icon></a>
+                <p>Thông báo</p>
+            </div>
+
+            <div class="nav">
+                <a href="#"><ion-icon name="grid-outline"></ion-icon></a>
+                <p>More</p>
+                    <div class="more">
+                        <div class="add">
+                            <a href="index.html"><ion-icon name="logo-facebook"></ion-icon></ion-icon></a>
+                            <p>Contact</p>
+                        </div>
+
+                        <div class="add">
+                            <a href="index.html"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></a>
+                            <p>Góp ý</p>
+                        </div>
+                        
+                    </div>
+
+            </div>
+            
+            <div class="nav">
+                <a href="blog.html"><ion-icon name="chatbox-ellipses-outline"></ion-icon></a>
+                <p>Blog</p>
+            </div>
+
+            <div style="background-color: #86b5e0;
+            border-radius: 18px;
+            padding: 8px;" class="nav">
+                <a href="#"><ion-icon name="person-circle-outline"></ion-icon></a>
+                <p>Account</p>
+            </div>
+
+        </div>
+        
+    </div>
+    
+
+
+    
+</html>
