@@ -152,6 +152,10 @@ img:hover {
     border-radius: 18px;
 }
 
+#sidebar .nav p {
+    font-size: 16px;
+}
+
 #sidebar .nav .more, 
 .login {
     position: absolute;
