@@ -55,12 +55,10 @@ h1, h2 {
 
 h1{
     margin-top: 90px;
-    
 }
 
 h2{
     margin-top: 200px;
-    font-size: 26px;
 } 
 
 a {
@@ -116,7 +114,7 @@ img:hover {
 
 .header-search {
     width: 45%;
-    margin-left: 400px;
+    margin-left: 35%;
     line-height: 70px;
 }
 
@@ -124,11 +122,11 @@ img:hover {
 .header-search button {
     font-size: 16px;
     height: 32px;
-    padding: 6px;
+    padding: 7px;
 }
 
 .header-search input {
-    width: 350px;
+    width: 55%;
     border-radius: 10px;
     border: none;
 }
@@ -155,7 +153,7 @@ img:hover {
 }
 
 #sidebar .nav p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #sidebar .nav .more, 
@@ -196,10 +194,6 @@ img:hover {
 /* Difficult */
 .diff {
     font-size: 20px;
-    /* Căn giữa items */
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .diff img {
@@ -229,11 +223,11 @@ img:hover {
     background-color: #fff;
     margin-top: 20px;
     padding: 10px 10px;
-    width: 100%;
     text-align: center;
     /* Căn giữa = flexbox */
     display: flex;
-    justify-content: center;   
+    align-items: center;
+    justify-content: center;  
 }
 
 .docu1 {
@@ -308,7 +302,7 @@ img:hover {
 }
 
 #cmt-menu .cmt input {
-    width: 480px;
+    width: 75%;
     padding: 18px;
     margin: 10px;
 }
@@ -326,7 +320,6 @@ img:hover {
 /* Rate */
 #rate {
     margin-top: 150px;
-    padding: 0 70px;
 }
 #rate p {
     font-size: 16px; 
@@ -457,8 +450,7 @@ img:hover {
     background-color: var(--Btn-hover);
 }
 
-.log input, .log
-button {
+.log input, .log button {
     margin-top: 15px;
     font-size: 20px;
 }
@@ -561,11 +553,6 @@ button {
     line-height: 50px;
 }
 
-#web-blog input {
-    border-radius: 10px;
-    border: none;
-    height: 40px;
-}
 
 .calc {
     width: 200px;
@@ -627,6 +614,13 @@ button {
     font-size: 40px;
     color: #000;
 }
+
+@media screen and (min-width: 1280px){
+    
+}
+
+
+
 
 
 
