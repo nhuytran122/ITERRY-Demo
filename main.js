@@ -14,6 +14,7 @@ function btnRate(){
 	alert ('Cảm ơn đánh giá của bạn! Hãy tiếp tục trải nghiệm web nhé!')
 }
 
+
 var input = document.querySelector('.input');
 var items = Array.from(document.querySelectorAll('.item'));
 items.forEach(function(btn){
