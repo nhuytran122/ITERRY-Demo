@@ -436,7 +436,7 @@ img:hover {
 .log button,
 .reg button {
     border-radius: 30px;
-    padding: 8px;
+    padding: 10px;
 }
 
 .log button,
@@ -474,7 +474,8 @@ img:hover {
 .others button {
     color: #fff;
     border-radius: 5px;
-    padding: 5px;
+    padding: 8px;
+    height: 40px;
 }
 
 /* Sign up */
