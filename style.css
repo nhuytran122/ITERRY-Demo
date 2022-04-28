@@ -553,7 +553,6 @@ img:hover {
     line-height: 50px;
 }
 
-
 .calc {
     width: 200px;
     margin-top: 120px;
@@ -587,11 +586,12 @@ img:hover {
 }
 
 .item1{
+    grid-column: 1 / span 2;
     background-color: var(--Bgr-sub);
 }
 
 .item3 {
-    grid-column: 3 / span 2;
+    grid-column: 1 / span 2;
 }
 
 .item1:hover{
@@ -613,11 +613,6 @@ img:hover {
     font-size: 40px;
     color: #000;
 }
-
-
-
-
-
 
 
 
