@@ -2,7 +2,18 @@
 // console.log('Đây là web của tớ');
 // prompt('Bạn là sinh viên năm mấy nhỉ?');
 
-function myFunction() {
+function Sign_up() {
+// 	// Get the value of the input field with id="numb"
+// 	let x = document.getElementsByClassName("inf")
+// 	// If x is Not a Number or less than one or greater than 10
+// 	let text;
+// 	if (isNaN(x) || x < 1 || x > 10) {
+// 	  text = "Input not valid";
+// 	} else {
+// 	  text = "Input OK";
+// 	}
+// 	document.getElementsByID("demo").innerHTML = text;
+//   }
 	alert('Đăng ký tài khoản thành công! Bạn có thể đăng nhập rồi nhé!');
 }
 

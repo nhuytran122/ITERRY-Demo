@@ -347,7 +347,7 @@ img:hover {
 /* Calculator */
 
 .calc {
-    width: 200px;
+    width: 50%;
     margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
@@ -367,7 +367,7 @@ img:hover {
 }
 
 .item{
-    height: 50px;
+    height: 80px;
     outline: none;
     border-radius: 0;
     border: 0.1px solid rgb(212, 212, 212);
@@ -537,8 +537,8 @@ img:hover {
 .others button {
     color: #fff;
     border-radius: 5px;
-    padding: 8px;
-    height: 40px;
+    padding: 5px;
+    height: 38px;
 }
 
 /* Sign up */
@@ -586,6 +586,7 @@ img:hover {
     border-radius: 30px;
     padding: 8px;
     margin-top: -5px;
+    font-size: 18px;
 }
 
 .sign-up button:hover {
