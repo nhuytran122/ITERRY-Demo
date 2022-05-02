@@ -295,7 +295,8 @@ img:hover {
 
 .cmt-p {
     font-weight: bold;
-    font-size: 28px ;
+    font-size: 28px;
+    padding: 10px;
     text-align: center;
     text-transform: uppercase;
     color: rgb(25, 75, 104);
