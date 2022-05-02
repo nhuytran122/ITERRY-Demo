@@ -356,7 +356,8 @@ img:hover {
 .screen{
     background-color: #fff;
     width: 100%;
-    height: 50px;
+    height: 60px;
+    line-height: 60px;
     position: relative;
 }
 
