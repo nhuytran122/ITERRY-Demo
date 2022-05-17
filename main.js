@@ -1,7 +1,3 @@
-// confirm('Ban la sinh vien?');
-// console.log('Đây là web của tớ');
-// prompt('Bạn là sinh viên năm mấy nhỉ?');
-
 function Sign_up() {
 	alert('Đăng ký tài khoản thành công! Bạn có thể đăng nhập rồi nhé!');
 }
@@ -36,3 +32,6 @@ items.forEach(function(btn){
 		else input.innerHTML+=btn.innerHTML;
 	})
 })
+
+
+
