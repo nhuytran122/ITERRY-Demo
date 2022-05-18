@@ -440,7 +440,6 @@ img {
 }
 
 /* Login */
-
 .login-menu{
     margin-top: 90px;
     background-color: #fff;
@@ -459,7 +458,6 @@ img {
 .login-menu .reg button:hover {
     background-color: var(--Bgr-sub);
 }
-
 
 .login-menu .reg button, 
 .log button:hover {
@@ -495,7 +493,6 @@ img {
 }
 
 /* Sign up */
-
 .sign-up {
     margin-top: 75px;
     background-color: #fff;
@@ -511,7 +508,7 @@ img {
 }
 
 .sign-up input {
-    padding: 14px;
+    padding: 15px;
     margin-top: 15px;
 }
 
@@ -532,7 +529,7 @@ img {
 }
 
 .sign-up .birth input {
-    width: 125px;
+    width: 128px;
 }
 
 .sign-up button {
@@ -566,7 +563,7 @@ img {
     padding: 8px;
 }
 
-#web-blog > p {
+#web-blog p {
     text-align: center;
     font-size: 20px;
     line-height: 50px;
