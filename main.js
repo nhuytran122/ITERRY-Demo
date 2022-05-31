@@ -10,9 +10,9 @@ function btnRate(){
 	alert ('Cảm ơn đánh giá của bạn! Hãy tiếp tục trải nghiệm web nhé!')
 }
 
-var input = document.querySelector('.input');
+let input = document.querySelector('.input');
 //Tạo mới một mảng
-var items = document.querySelectorAll('.item');
+let items = document.querySelectorAll('.item');
 items.forEach(function(btn){
 	btn.addEventListener('click', function(){
 		//Để tránh trường hợp: 0123 --> 123
