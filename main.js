@@ -10,7 +10,6 @@ function btnRate(){
 	alert ('Cảm ơn đánh giá của bạn! Hãy tiếp tục trải nghiệm web nhé!')
 }
 
-
 var input = document.querySelector('.input');
 //Tạo mới một mảng
 var items = document.querySelectorAll('.item');
@@ -38,6 +37,7 @@ items.forEach(function(btn){
 			input.innerHTML = eval(input.innerHTML);
 		}
 
+	//Để nhập các số
 		else input.innerHTML += btn.innerHTML;
 	})
 })
