@@ -11,7 +11,6 @@ function btnRate(){
 }
 
 let input = document.querySelector('.input');
-//Tạo mới một mảng
 let items = document.querySelectorAll('.item');
 items.forEach(function(btn){
 	btn.addEventListener('click', function(){

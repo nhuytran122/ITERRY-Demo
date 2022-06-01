@@ -53,7 +53,6 @@ h1, h2 {
     text-transform: uppercase;
     color: var(--heading-ttl);
     padding: 25px;
-    
 }
 
 h1{
@@ -555,12 +554,6 @@ img {
 }
 
 /* Web blog */
-#web-blog #sidebar .blog-p  {
-    background-color: var(--Bgr-sub);
-    border-radius: 18px;
-    padding: 8px;
-}
-
 #web-blog p {
     text-align: center;
     font-size: 20px;
